@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock MAnagement</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main2.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h2>Select an item:</h2>
+        <select class="dropdown-menu-md-start" id="dropdown">
+          <!-- Options will be populated dynamically via JavaScript -->
+        </select>
+        <button style="margin-top: 20px" id="showDetails">Show Details</button>
+
+        <br /><br />
+      </div>
+      <h2>Details:</h2>
+      <table class="" id="detailsTable" border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>CMP_Rs</th>
+            <th>PE</th>
+          </tr>
+        </thead>
+
+        <tbody class="data-show"></tbody>
+      </table>
+    </div>
+    <script src="main2.js">
+      
+    
+    </script>
+  </body>
+</html>

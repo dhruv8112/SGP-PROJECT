@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  justify-content: center;
+  background-color: aqua;
+  margin-top: 50px;
+  padding: 10px;
+  height: 200px;
+  background-color: white;
+  padding: 20px;
+}
+.content {
+  border: 1px dotted #ccc;
+  padding: 10%;
+}
